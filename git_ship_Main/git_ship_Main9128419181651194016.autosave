@@ -11,17 +11,14 @@ String copilot = "";
 boolean viewscreen = true; //powers up main viewscreen
 boolean displays = true; //powers up left and right cockpit displays
 boolean attitudeControl = true;
-<<<<<<< HEAD
 boolean artificialGravity = false;
 boolean sensors = true; //turns on sensors
 boolean parkingBrake = false;
-boolean shields = false; //turns on shields
-=======
+boolean shields = false; //turns on shiel
 boolean artificialGravity = true;
 boolean sensors = true; //turns on sensors
 boolean parkingBrake = true;
 boolean shields = true; //turns on shields
->>>>>>> EngineeringWorkingParty
 
 boolean redAlert = false; //turns on red alert
 
@@ -35,11 +32,8 @@ float drift;
 color white = color(255);
 color grey = color(100);
 color black = color(0);
-<<<<<<< HEAD
 color holo = color(255, 255, 0);
-=======
 color holo = color(0, 255, 255);
->>>>>>> EngineeringWorkingParty
 
 //slider values: 0, 10 values set in code
 float slider1 = 0;
